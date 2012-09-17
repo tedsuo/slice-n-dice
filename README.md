@@ -1,6 +1,6 @@
 # Slice-n-Dice
 
-node-based image resizing service.
+node-based image resizing http service.
 
 ## Install
 
@@ -8,11 +8,11 @@ download this git repo and type 'npm install' in the created directory.
 
 ## Starting
 
-    PORT=8081 NODE\_ENV=production node index.js
+    PORT=8081 NODE_ENV=production node index.js
 
 ### Env Variables
-**PORT** defaults to 8081
-**NODE\_ENV** set to 'production' to turn on clustering
+* **PORT** defaults to 8081
+* **NODE\_ENV** set to 'production' to turn on clustering
 
 ## Usage
 
@@ -22,11 +22,11 @@ example:
 
 ### Params
 
-**u** image url to process
-**h** resize height
-**w** resize width
-**sh** _(optional)_ original height
-**sw** _(optional)_ original width
+* **u** image url to process
+* **h** resize height
+* **w** resize width
+* **sh** _(optional)_ original height
+* **sw** _(optional)_ original width
 
 NOTE: including original height and width is much more efficient.
 
