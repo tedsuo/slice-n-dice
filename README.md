@@ -4,7 +4,7 @@ node-based image resizing http service.
 
 ## Install
 
-download this git repo and type 'npm install' in the created directory.
+First, install graphicsmagick. Then download this git repo and type 'npm install' in the created directory.
 
 ## Starting
 
