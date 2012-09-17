@@ -1,0 +1,16 @@
+{
+  "name": "slice-n-dice",
+  "version": "0.0.0",
+  "description": "image server with thumbnails",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "",
+  "author": "tedsuo",
+  "license": "BSD",
+  "dependencies":{
+    "gm": ">= 1.5.0",
+    "cluster2": "*"
+  }
+}
